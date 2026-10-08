@@ -1,0 +1,56 @@
+.bild-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.bild-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+  background-image: linear-gradient(to bottom right, blue, violet);
+  background-attachment: fixed;
+}
+
+p {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h1 {
+  color: pink;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.haupt-navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+.haupt-navigation a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.haupt-navigation a:hover {
+  color: pink;
+}
+
+ul, li {
+  color: rgb(255, 88, 255);
+  font-weight: bold;
+  font-size: 24px;
+  text-shadow: 1px 1px 1px white;
+}
